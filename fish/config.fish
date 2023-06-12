@@ -27,7 +27,7 @@ set -x -g PATH ~/bin ~/.local/bin $PATH
 set -x -g PATH ~/.composer/vendor/bin $PATH
 
 # fnm
-set -x -g PATH /home/rosco/.fnm $PATH
+set -x -g PATH /home/luca/.fnm $PATH
 fnm env --use-on-cd | source
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
