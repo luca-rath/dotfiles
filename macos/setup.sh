@@ -602,7 +602,6 @@ for app in "Activity Monitor" \
 	"Photos" \
 	"Safari" \
 	"SystemUIServer" \
-	"Transmission" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
