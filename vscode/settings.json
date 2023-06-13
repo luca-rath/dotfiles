@@ -1,6 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Monokai",
 
     "editor.rulers": [80, 100, 120],
@@ -26,17 +25,14 @@
         "javascript",
         "javascriptreact",
         "typescript",
-        "typescriptreact",
-        "vue"
+        "typescriptreact"
     ],
 
     "[typescript][javascript][typescriptreact][javascriptreact][html][css]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
-
-    "Lua.diagnostics.disable": ["undefined-global"],
 
     "git.autofetch": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
